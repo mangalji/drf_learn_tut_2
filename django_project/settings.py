@@ -54,11 +54,11 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'django_project.urls'
 
-REST_FRAMEWORK = [
+REST_FRAMEWORK = {
         "DEFAULT_PERMISSION_CLASSES":[
             "rest_framework.permissions.AllowAny",
             ]
-        ]
+        }
 
 
 TEMPLATES = [
